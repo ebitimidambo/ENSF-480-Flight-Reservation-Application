@@ -10,7 +10,7 @@ public class DatabaseManager {
 	
 	private static final String URL = "jdbc:mysql://localhost:3306/flight_reservation";
 	private static final String USER = "root";
-	private static final String PASSWORD = "Ezomo2005$";
+	private static final String PASSWORD = "[Your password here]";
 	
 	private DatabaseManager() {
 		try {
@@ -34,3 +34,4 @@ public class DatabaseManager {
 		return connection;
 	}
 }
+
