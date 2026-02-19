@@ -46,6 +46,24 @@ To run the system, the following requirements must be met:
 
 ---
 
+# Executable Version
+
+An executable version of the application is included in the submission for convenience.
+
+To run the application without setting up the development environment:
+
+1. Download the folder titled **"JAR File Executable"**.
+2. Ensure that the executable file and the `images` folder remain in the **same directory**.
+3. Double-click the executable file titled:
+
+   `Flight Reservation Application - Group 16.jar`
+
+The application can run purely from this folder, provided you have a compatible **Java Runtime Environment (JRE)** installed.
+
+If the `images` folder is removed or placed in a different directory, the application will still run, but certain visual elements may display default placeholders instead.
+
+---
+
 ## Design Documentation
 
 Design documents are included for a more in-depth look at the application’s architecture, structure, and functionality.
