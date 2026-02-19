@@ -64,6 +64,24 @@ If the `images` folder is removed or placed in a different directory, the applic
 
 ---
 
+# Test Login Credentials
+
+For convenience during evaluation, the following test accounts can be used to access different system roles:
+
+### Flight Agent
+- **Username:** agent_smith  
+- **Password:** agentpass  
+
+### System Administrator
+- **Username:** sys_admin  
+- **Password:** adminpass  
+
+These credentials are stored in the database `user` table.
+
+> Note: After setting up the database on your system, you may need to update the connection details in the `DatabaseManager` class to ensure the correct database username and password are being used.
+
+---
+
 ## Design Documentation
 
 Design documents are included for a more in-depth look at the application’s architecture, structure, and functionality.
